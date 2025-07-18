@@ -1,7 +1,7 @@
 - [ ] Add Foods (New and old)
 	- [ ] Nuggies
-		- [ ] Raw
-		- [ ] Cooked
+		- [ ] Raw Nuggie
+		- [ ] Cooked Nuggie
 		- [ ] Dino
 			- [ ] Raw
 			- [ ] Cooked
@@ -10,7 +10,19 @@
 		- [ ] Raw
 		- [ ] Cooked
 		- [ ] Fry Box
-	- [ ] Caca Cola
+	- [ ] Drinks
+		- [ ] Caca Cola
+			- [ ] Speed Boost
+			- [ ] Gives Hunger
+		- [ ] Diet Caca Cola
+			- [ ] Gives Hunger
+			- [ ] No speed boost
+		- [ ] Cane Beer
+			- [ ] Speed Boost
+			- [ ] Gives Hunger
+		- [ ] Diet Cane Beer
+			- [ ] Speed Boost
+			- [ ] Gives Hunger
 	- [ ] Sauces
 		- [ ] BBQ
 		- [ ] Ketchup
@@ -71,5 +83,4 @@
 		- [ ] Little Jon
 - [ ] Add ores
 	- [ ] BBQ Ore
-	- [ ] Nuggie Ore(?)
 - [ ] Import Old Textures 
