@@ -2,6 +2,7 @@ package blueberrytech.mickeydeesreloaded;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,6 +24,9 @@ public class ModItems {
         // Register items to the custom item group.
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.DEV_ITEM);
+            itemGroup.add(ModItems.RAW_NUGGIE);
+            itemGroup.add(ModItems.COOKED_NUGGIE);
+            itemGroup.add(ModItems.FLINT_KNIFE);
         });
     }
 
@@ -48,6 +52,30 @@ public class ModItems {
 
     // Adding items here
 
+    // Item items
+
     public static final Item DEV_ITEM = register("dev_item", Item::new, new Item.Settings());
+    public static final Item FLINT_KNIFE = register("flint_knife", Item::new,
+            new Item.Settings()
+                    .maxCount(1)
+    );
+
+
+    // Food items
+
+    public static final Item RAW_NUGGIE = register("raw_nuggie", Item::new,
+            new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(2)
+                    .build()
+            )
+    );
+
+    public static final Item COOKED_NUGGIE = register("cooked_nuggie", Item::new,
+            new Item.Settings().food(new FoodComponent.Builder()
+                    .nutrition(5)
+                    .build()
+            )
+    );
+
 
 }

@@ -1,4 +1,7 @@
 {
   "itemGroup.mickeydeesreloaded": "Mickey Dees Reloaded",
-  "item.mickeydeesreloaded.dev_item": "Development Item"
+  "item.mickeydeesreloaded.dev_item": "Development Item",
+  "item.mickeydeesreloaded.raw_nuggie": "Raw Nuggie",
+  "item.mickeydeesreloaded.cooked_nuggie": "Cooked Nuggie",
+  "item.mickeydeesreloaded.flint_knife": "Flint Knife"
 }
