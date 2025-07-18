@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Food/Nuggies.md",
+                "file": "Food/Nuggies/Nuggies.md",
                 "mode": "source",
                 "source": false
               },
@@ -200,8 +200,14 @@
   },
   "active": "f54421f55c9ec44d",
   "lastOpenFiles": [
-    "Table of Contents.md",
+    "Items/Knives/Knives.md",
+    "Items/Knives",
+    "Food/Nuggies/Raw Nuggies.md",
+    "Food/Nuggies/Nuggies.md",
+    "To-Do.md",
     "Items/Spatulas/Spatulas.md",
+    "Table of Contents.md",
+    "Food/Nuggies",
     "Items/Spatulas/Spatula Stencil.md",
     "Items/Spatulas/Netherite Spatula.md",
     "Items/Spatulas/Diamond Spatula.md",
@@ -210,8 +216,6 @@
     "Items/Spatulas/Flimsy Spatula.md",
     "Items/Spatulas/Greasy Spatula.md",
     "Items/Spatulas",
-    "To-Do.md",
-    "Food/Nuggies.md",
     "Food",
     "Items.md",
     "Items/Spatulas",

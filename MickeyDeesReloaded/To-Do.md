@@ -23,6 +23,22 @@
 		- [ ] Big Jon
 - [ ] Add Items (New and old)
 	- [ ] Dino Stencil
+	- [ ] Knives
+		- [ ] Knife Hilt
+			- [ ] 2 Sticks Diagonally
+		- [ ] Stone Knife
+			- [ ] Stone + Knife Hilt
+		- [ ] Iron Knife
+			- [ ] 1 Iron Ingot + Knife Hilt
+		- [ ] Gold Knife
+			- [ ] 1 Gold Ingot + Knife Hilt
+		- [ ] Diamond Knife
+			- [ ] 1 Diamond + Knife Hilt
+		- [ ] Netherite Knife
+			- [ ] 1 Diamond Knife + Netherite Upgrade
+		- [ ] Creative Knife
+			- [ ] Creative only
+			- [ ] Infinite Durability
 	- [ ] Spatulas
 		- [ ] Spatula Stencil
 			- Made from Flimsy Spatula and Paper
