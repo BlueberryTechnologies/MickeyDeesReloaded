@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.1,
+  "group": "nuggie_to_nuggie",
+  "ingredient": "mickeydeesreloaded:raw_nuggie",
+  "result": {
+    "id": "mickeydeesreloaded:cooked_nuggie"
+  }
+}

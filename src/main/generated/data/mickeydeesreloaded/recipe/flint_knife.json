@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "flint_tools",
+  "key": {
+    "F": "minecraft:flint",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " F",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mickeydeesreloaded:flint_knife"
+  }
+}

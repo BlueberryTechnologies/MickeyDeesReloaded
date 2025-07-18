@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:chicken",
+  "result": {
+    "count": 6,
+    "id": "mickeydeesreloaded:raw_nuggie"
+  }
+}

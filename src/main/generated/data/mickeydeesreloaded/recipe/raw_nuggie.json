@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chicken",
+    "mickeydeesreloaded:flint_knife"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mickeydeesreloaded:raw_nuggie"
+  }
+}
