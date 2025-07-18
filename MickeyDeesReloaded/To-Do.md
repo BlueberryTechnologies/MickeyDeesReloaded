@@ -1,0 +1,59 @@
+- [ ] Add Foods (New and old)
+	- [ ] Nuggies
+		- [ ] Raw
+		- [ ] Cooked
+		- [ ] Dino
+			- [ ] Raw
+			- [ ] Cooked
+		- [ ] Nuggie Box
+	- [ ] French Fries
+		- [ ] Raw
+		- [ ] Cooked
+		- [ ] Fry Box
+	- [ ] Caca Cola
+	- [ ] Sauces
+		- [ ] BBQ
+		- [ ] Ketchup
+		- [ ] Mickey Dees Sauce
+	- [ ] Desserts
+		- [ ] Da Pie
+		- [ ] Cookies
+	- [ ] Speciality Meals
+		- [ ] Da Meal
+		- [ ] Big Jon
+- [ ] Add Items (New and old)
+	- [ ] Dino Stencil
+	- [ ] Spatulas
+		- [ ] Spatula Stencil
+			- Made from Flimsy Spatula and Paper
+		- [ ] Greasy
+			- Found in loot
+			- Crafting ingredient
+			- Cook in furnace to burn grease off
+			- Turns into Flimsy Spatula
+		- [ ] Flimsy
+			- 30 Durability
+			- Made from Greasy Spatula
+		- [ ] Iron
+			- 250 Durability
+			- Spatula Stencil + 8 Iron Ingots
+		- [ ] Gold
+			- 50 Durability
+			- Spatula Stencil + 8 Gold Ingots
+			- Also found in loot tables
+		- [ ] Diamond
+			- 1000 Durability
+			- Spatula Stencil + 8 Diamonds
+		- [ ] Netherite
+			- 1500 Durability
+			- Diamond Spatula + Netherite Upgrade
+		- [ ] Creative
+			- Infinite Durability
+			- Creative Only
+	- [ ] Toys
+		- [ ] Da Toy
+		- [ ] Little Jon
+- [ ] Add ores
+	- [ ] BBQ Ore
+	- [ ] Nuggie Ore(?)
+- [ ] Import Old Textures 

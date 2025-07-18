@@ -1,0 +1,7 @@
+- [[Spatula Stencil]]
+- [[Greasy Spatula]]
+- [[Flimsy Spatula]]
+- [[Iron Spatula]]
+- [[Gold Spatula]]
+- [[Diamond Spatula]]
+- [[Netherite Spatula]]
