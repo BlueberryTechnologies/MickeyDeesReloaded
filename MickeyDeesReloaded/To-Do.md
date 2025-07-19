@@ -1,15 +1,15 @@
 - [ ] Add Foods (New and old)
-	- [ ] Nuggies
-		- [ ] Raw Nuggie
-		- [ ] Cooked Nuggie
-		- [ ] Dino
-			- [ ] Raw
-			- [ ] Cooked
-		- [ ] Nuggie Box
-	- [ ] French Fries
-		- [ ] Raw
-		- [ ] Cooked
-		- [ ] Fry Box
+	- [x] Nuggies
+		- [x] Raw Nuggie
+		- [x] Cooked Nuggie
+		- [x] Dino
+			- [x] Raw
+			- [x] Cooked
+		- [x] Nuggie Box
+	- [x] French Fries
+		- [x] Raw
+		- [x] Cooked
+		- [x] Fry Box
 	- [ ] Drinks
 		- [ ] Caca Cola
 			- [ ] Speed Boost
@@ -38,7 +38,7 @@
 	- [ ] Knives
 		- [ ] Knife Hilt
 			- [ ] 2 Sticks Diagonally
-		- [ ] Stone Knife
+		- [x] Flint Knife
 			- [ ] Stone + Knife Hilt
 		- [ ] Iron Knife
 			- [ ] 1 Iron Ingot + Knife Hilt
@@ -83,4 +83,4 @@
 		- [ ] Little Jon
 - [ ] Add ores
 	- [ ] BBQ Ore
-- [ ] Import Old Textures 
+- [ ] Import Old Textures

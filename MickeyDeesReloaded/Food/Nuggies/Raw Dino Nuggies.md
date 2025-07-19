@@ -1,2 +1,2 @@
 - Created from Raw Chicken and a stonecutter
-- 1 Chicken = 6 Nuggies
+- 1 Chicken = 6 Dino Nuggies

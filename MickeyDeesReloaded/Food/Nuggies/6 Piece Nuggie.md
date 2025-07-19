@@ -1,0 +1,1 @@
+Crafted with 6 Cooked Nuggies and a Nuggie Box

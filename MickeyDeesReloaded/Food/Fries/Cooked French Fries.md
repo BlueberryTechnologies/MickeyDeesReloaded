@@ -1,0 +1,1 @@
+Raw french fries cooked for 50 ticks

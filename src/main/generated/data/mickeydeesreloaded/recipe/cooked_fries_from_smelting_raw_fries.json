@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 50,
+  "experience": 0.1,
+  "group": "fries_to_fries",
+  "ingredient": "mickeydeesreloaded:raw_fries",
+  "result": {
+    "id": "mickeydeesreloaded:cooked_fries"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:cooked_dino_nuggie",
+    "mickeydeesreloaded:nuggie_box"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mickeydeesreloaded:six_piece_dino_nuggie"
+  }
+}

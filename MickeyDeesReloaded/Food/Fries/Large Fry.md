@@ -1,0 +1,1 @@
+Crafted with 8 Cooked French Fries and 1 Fry Box

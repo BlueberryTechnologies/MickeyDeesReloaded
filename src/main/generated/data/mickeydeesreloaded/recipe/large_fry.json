@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "boxes",
+  "key": {
+    "F": "mickeydeesreloaded:cooked_fries",
+    "S": "mickeydeesreloaded:fry_box"
+  },
+  "pattern": [
+    "FFF",
+    "FSF",
+    "FFF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mickeydeesreloaded:large_fry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nuggie_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mickeydeesreloaded:cooked_dino_nuggie"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mickeydeesreloaded:six_piece_dino_nuggie"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nuggie_box"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mickeydeesreloaded:six_piece_dino_nuggie"
+    ]
+  }
+}

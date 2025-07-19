@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_fries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mickeydeesreloaded:cooked_fries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fry_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mickeydeesreloaded:fry_box"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mickeydeesreloaded:large_fry"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_fries",
+      "has_fry_box"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mickeydeesreloaded:large_fry"
+    ]
+  }
+}
