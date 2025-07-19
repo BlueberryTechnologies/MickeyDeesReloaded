@@ -13,22 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Changelog/Version 0.2.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Version 0.2"
+              "title": "To-Do"
             }
           }
         ]
       },
       {
-        "id": "4e54cacb3275ceb4",
+        "id": "74207ffd06564d0b",
         "type": "tabs",
         "children": [
           {
-            "id": "72389347b0716bf3",
+            "id": "99b840062099a209",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -186,40 +186,41 @@
   },
   "active": "f54421f55c9ec44d",
   "lastOpenFiles": [
-    "Changelog/Changelog.md",
-    "Changelog/Version 0.2.md",
+    "Changelog/Version 0.2.1.md",
     "To-Do.md",
+    "Items/Items.md",
+    "Items/Boxes/Boxes.md",
+    "Items/Boxes/Fry Box.md",
+    "Items/Boxes/Nuggie Box.md",
+    "Food/Food.md",
+    "Food/Nuggies/Nuggies.md",
+    "Food/Fries/Fries.md",
+    "Changelog/Version 0.2.md",
+    "Changelog/Version 0.1.0.md",
+    "Items/Boxes",
+    "Table of Contents.md",
+    "Tools/Tools.md",
+    "Items/Knife Hilt.md",
+    "Items/Toys/Toys.md",
+    "Tools",
+    "Food/Desserts/Apple Pie.md",
+    "Food/Desserts/Desserts.md",
+    "Items/Toys/MD Toy.md",
+    "Food/Desserts",
+    "Changelog/Changelog.md",
+    "Items/Toys",
     "Food/Fries/Cooked French Fries.md",
     "Food/Nuggies/Cooked Nuggies.md",
     "Food/Nuggies/Cooked Dino Nuggies.md",
     "Food/Nuggies/6 Piece Nuggie.md",
     "Food/Nuggies/6 Piece Dino Nuggie.md",
-    "Food/Nuggies/Nuggies.md",
-    "Food/Nuggies/Nuggie Box.md",
     "Food/Fries/Large Fry.md",
-    "Food/Fries/Fries.md",
-    "Food/Fries/Fry Box.md",
     "Food/Fries/Untitled.md",
-    "Items/Untitled",
-    "Table of Contents.md",
-    "Food/Fries/Raw French Fries.md",
     "Food/Fries",
-    "Items/Knives/Flint Knife.md",
-    "Items/Knives/Knives.md",
-    "Food/Nuggies/Raw Dino Nuggies.md",
-    "Food/Nuggies/Raw Nuggies.md",
-    "Changelog/Version 0.1.0.md",
     "Changelog",
-    "Items/Knives",
-    "Items/Spatulas/Spatulas.md",
+    "Tools/Knives",
     "Food/Nuggies",
-    "Items/Spatulas/Spatula Stencil.md",
-    "Items/Spatulas/Netherite Spatula.md",
-    "Items/Spatulas/Diamond Spatula.md",
-    "Items/Spatulas/Gold Spatula.md",
-    "Items/Spatulas",
-    "Food",
-    "Items/Spatulas",
-    "Items"
+    "Tools/Spatulas",
+    "Food"
   ]
 }

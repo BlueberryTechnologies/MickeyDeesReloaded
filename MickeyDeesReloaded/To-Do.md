@@ -27,19 +27,17 @@
 		- [ ] BBQ
 		- [ ] Ketchup
 		- [ ] Mickey Dees Sauce
-	- [ ] Desserts
-		- [ ] Da Pie
-		- [ ] Cookies
+	- [x] Desserts
+		- [x] Da Pie
 	- [ ] Speciality Meals
 		- [ ] Da Meal
 		- [ ] Big Jon
 - [ ] Add Items (New and old)
-	- [ ] Dino Stencil
 	- [ ] Knives
-		- [ ] Knife Hilt
-			- [ ] 2 Sticks Diagonally
+		- [x] Knife Hilt
+			- [x] 2 Sticks Diagonally
 		- [x] Flint Knife
-			- [ ] Stone + Knife Hilt
+			- [x] Flint + Knife Hilt
 		- [ ] Iron Knife
 			- [ ] 1 Iron Ingot + Knife Hilt
 		- [ ] Gold Knife
@@ -79,8 +77,10 @@
 			- Infinite Durability
 			- Creative Only
 	- [ ] Toys
-		- [ ] Da Toy
+		- [x] Da Toy
 		- [ ] Little Jon
 - [ ] Add ores
 	- [ ] BBQ Ore
 - [ ] Import Old Textures
+- [ ] Fix knife texture
+- [ ] Add saturation for foods

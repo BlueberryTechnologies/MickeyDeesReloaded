@@ -3,15 +3,14 @@
   "category": "equipment",
   "group": "flint_tools",
   "key": {
-    "F": "minecraft:flint",
-    "S": "mickeydeesreloaded:knife_hilt"
+    "F": "minecraft:stick"
   },
   "pattern": [
     " F",
-    "S "
+    "F "
   ],
   "result": {
     "count": 1,
-    "id": "mickeydeesreloaded:flint_knife"
+    "id": "mickeydeesreloaded:knife_hilt"
   }
 }
