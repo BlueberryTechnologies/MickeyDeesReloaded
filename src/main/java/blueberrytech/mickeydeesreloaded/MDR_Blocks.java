@@ -3,13 +3,18 @@ package blueberrytech.mickeydeesreloaded;
 import java.util.function.Function;
 
 import blueberrytech.mickeydeesreloaded.MickeyDeesReloaded;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import net.minecraft.util.math.intprovider.UniformIntProvider;
@@ -45,10 +50,20 @@ public class MDR_Blocks {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MickeyDeesReloaded.MOD_ID, name));
     }
 
+    public static final RegistryKey<ItemGroup> MICKEY_DEES_GROUP_BLOCKS_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MickeyDeesReloaded.MOD_ID, "item_group_blocks"));
+    public static final ItemGroup MICKEY_DEES_GROUP_BLOCKS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(MDR_Blocks.BBQ_ORE))
+            .displayName(Text.translatable("itemGroup.mickeydeesreloaded_blocks"))
+            .build();
+
     // :::1
 
     public static void initialize() {
+        Registry.register(Registries.ITEM_GROUP, MICKEY_DEES_GROUP_BLOCKS_KEY, MICKEY_DEES_GROUP_BLOCKS);
 
+        ItemGroupEvents.modifyEntriesEvent(MICKEY_DEES_GROUP_BLOCKS_KEY).register(itemGroup -> {
+            itemGroup.add(MDR_Blocks.BBQ_ORE);
+        });
     }
 
 

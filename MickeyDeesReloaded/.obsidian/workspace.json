@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Changelog/Version 0.3.md",
+                "file": "Items/Boxes/Meal Box.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Version 0.3"
+              "title": "Meal Box"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "f54421f55c9ec44d",
   "lastOpenFiles": [
-    "To-Do.md",
     "Changelog/Version 0.3.md",
+    "Items/Boxes/Meal Box.md",
+    "To-Do.md",
     "Blocks/Ores/BBQ Ore.md",
     "Items/Tools/Knives/Knives.md",
     "Blocks/Ores/Ores.md",
@@ -217,7 +218,6 @@
     "Changelog/Changelog.md",
     "Items/Toys",
     "Items/Food/Fries/Cooked French Fries.md",
-    "Items/Food/Nuggies/Cooked Nuggies.md",
     "Items/Food/Fries",
     "Changelog",
     "Items/Tools/Knives",
