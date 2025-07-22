@@ -67,8 +67,13 @@ public class MDR_Blocks {
     }
 
 
-    public static final Block BBQ_ORE = register("bbq_ore", settings -> new ExperienceDroppingBlock(UniformIntProvider.create(2,5), settings), Block.Settings.create().strength(3f).requiresTool(), true); // the 2,5 is the range of exp
+    public static final Block BBQ_ORE = register("bbq_ore", settings -> new ExperienceDroppingBlock(UniformIntProvider.create(2,5), settings),
+            Block.Settings.create()
+                    .strength(3f)
+                    .requiresTool(),
+            true); // the 2,5 is the range of exp
 
+    public static final Block MINCER = Registry.register(MDR_Blocks.MINCER, new Identifier(MickeyDeesReloaded.MOD_ID, "test_furnace"), new Mincer(FabricBlockSettings.of(Material.METAL)));
 
     // :::1
 }

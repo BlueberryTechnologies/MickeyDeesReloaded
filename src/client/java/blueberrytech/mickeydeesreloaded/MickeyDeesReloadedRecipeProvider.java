@@ -26,6 +26,8 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
             public void generate() {
                 RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
 
+                // Shaped Recipes
+
                 createShaped(RecipeCategory.TOOLS, MDR_Tools.FLINT_KNIFE)
                         .pattern(" F")
                         .pattern("S ")
@@ -65,6 +67,7 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
                         .offerTo(exporter);
 
+                // Shapeless Recipes
 
                 createShapeless(RecipeCategory.FOOD, MDR_Foods.SIX_PIECE_NUGGIE) // You can also specify an int to produce more than one
                         .input(MDR_Foods.COOKED_NUGGIE, 6)
