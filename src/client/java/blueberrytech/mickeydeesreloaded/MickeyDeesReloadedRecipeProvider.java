@@ -31,49 +31,55 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
                         .pattern("S ")
                         .input('F', Items.FLINT)
                         .input('S', MDR_Items.KNIFE_HILT)
-                        .group("flint_tools")
-                        .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                        .group("tools")
+                        .criterion(hasItem(MDR_Items.KNIFE_HILT), conditionsFromItem(MDR_Items.KNIFE_HILT))
                         .offerTo(exporter);
 
                 createShaped(RecipeCategory.TOOLS, MDR_Items.KNIFE_HILT)
                         .pattern(" F")
                         .pattern("F ")
                         .input('F', Items.STICK)
-                        .group("flint_tools")
+                        .group("tools")
                         .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.TOOLS, MDR_Foods.LARGE_FRY)
+                createShaped(RecipeCategory.FOOD, MDR_Foods.LARGE_FRY) // Changed the category as it was TOOLS before - RR
                         .pattern("FFF")
                         .pattern("FSF")
                         .pattern("FFF")
                         .input('F', MDR_Foods.COOKED_FRIES)
                         .input('S', MDR_Items.FRY_BOX)
                         .group("boxes")
-                        .criterion(hasItem(MDR_Foods.COOKED_FRIES), conditionsFromItem(MDR_Foods.COOKED_FRIES))
+                        // Need to figure out how the criterion works for the advancements for the recipes in the book.
                         .criterion(hasItem(MDR_Items.FRY_BOX), conditionsFromItem(MDR_Items.FRY_BOX))
                         .offerTo(exporter);
 
-
-                createShapeless(RecipeCategory.FOOD, MDR_Foods.RAW_NUGGIE) // You can also specify an int to produce more than one
-                        .input(Items.CHICKEN) // You can also specify an int to require more than one, or a tag to accept multiple things
-                        .input(MDR_Tools.FLINT_KNIFE)
-                        // Create an advancement that gives you the recipe
-                        .criterion(hasItem(Items.COARSE_DIRT), conditionsFromItem(Items.COARSE_DIRT))
+                createShaped(RecipeCategory.FOOD, MDR_Foods.APPLE_PIE)
+                        .pattern("FFF")
+                        .pattern("FSF")
+                        .pattern("FFF")
+                        .input('F', Items.WHEAT)
+                        .input('S', Items.APPLE)
+                        .group("food")
+                        // Need to figure out how the criterion works for the advancements for the recipes in the book.
+                        .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
                         .offerTo(exporter);
+
 
                 createShapeless(RecipeCategory.FOOD, MDR_Foods.SIX_PIECE_NUGGIE) // You can also specify an int to produce more than one
                         .input(MDR_Foods.COOKED_NUGGIE, 6)
                         .input(MDR_Items.NUGGIE_BOX)
+                        .group("food")
                         // Create an advancement that gives you the recipe
-                        .criterion(hasItem(MDR_Items.NUGGIE_BOX), conditionsFromItem(MDR_Foods.COOKED_NUGGIE))
+                        .criterion(hasItem(MDR_Items.NUGGIE_BOX), conditionsFromItem(MDR_Items.NUGGIE_BOX))
                         .offerTo(exporter);
 
                 createShapeless(RecipeCategory.FOOD, MDR_Foods.SIX_PIECE_DINO_NUGGIE) // You can also specify an int to produce more than one
                         .input(MDR_Foods.COOKED_DINO_NUGGIE, 6)
                         .input(MDR_Items.NUGGIE_BOX)
+                        .group("food")
                         // Create an advancement that gives you the recipe
-                        .criterion(hasItem(MDR_Items.NUGGIE_BOX), conditionsFromItem(MDR_Foods.COOKED_DINO_NUGGIE))
+                        .criterion(hasItem(MDR_Items.NUGGIE_BOX), conditionsFromItem(MDR_Items.NUGGIE_BOX))
                         .offerTo(exporter);
 
                 offerStonecuttingRecipe(

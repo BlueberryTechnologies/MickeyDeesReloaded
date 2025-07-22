@@ -2,6 +2,7 @@
   "itemGroup.mickeydeesreloaded_items": "Mickey Dees Reloaded Items",
   "itemGroup.mickeydeesreloaded_food": "Mickey Dees Reloaded Food",
   "itemGroup.mickeydeesreloaded_tools": "Mickey Dees Reloaded Tools",
+  "itemGroup.mickeydeesreloaded_blocks": "Mickey Dees Reloaded Blocks",
   "item.mickeydeesreloaded.raw_nuggie": "Raw Nuggie",
   "item.mickeydeesreloaded.cooked_nuggie": "Cooked Nuggie",
   "item.mickeydeesreloaded.raw_fries": "Raw French Fries",
@@ -16,5 +17,7 @@
   "item.mickeydeesreloaded.raw_dino_nuggie": "Raw Dino Nuggie",
   "item.mickeydeesreloaded.cooked_dino_nuggie": "Cooked Dino Nuggie",
   "item.mickeydeesreloaded.six_piece_dino_nuggie": "6 Piece Dino Nuggie",
-  "item.mickeydeesreloaded.apple_pie": "Apple Pie"
+  "item.mickeydeesreloaded.apple_pie": "Apple Pie",
+  "item.mickeydeesreloaded.bbq_ore": "BBQ Ore",
+  "item.mickeydeesreloaded.raw_bbq": "Raw BBQ"
 }

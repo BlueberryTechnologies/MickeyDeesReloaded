@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "flint_tools",
+  "group": "tools",
   "key": {
     "F": "minecraft:stick"
   },

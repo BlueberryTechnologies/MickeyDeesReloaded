@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Changelog/Version 0.3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To-Do"
+              "title": "Version 0.3"
             }
           }
         ]
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Changelog/Version 0.2.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for To-Do"
+              "title": "Backlinks for Version 0.2.1"
             }
           },
           {
@@ -186,41 +186,41 @@
   },
   "active": "f54421f55c9ec44d",
   "lastOpenFiles": [
-    "Changelog/Version 0.2.1.md",
     "To-Do.md",
+    "Changelog/Version 0.3.md",
+    "Blocks/Ores/BBQ Ore.md",
+    "Items/Tools/Knives/Knives.md",
+    "Blocks/Ores/Ores.md",
+    "Items/Tools/Tools.md",
     "Items/Items.md",
+    "Table of Contents.md",
+    "Blocks/Blocks.md",
+    "Blocks/Ores",
+    "Blocks",
+    "Changelog/Version 0.2.1.md",
+    "Changelog/Version 0.2.md",
     "Items/Boxes/Boxes.md",
     "Items/Boxes/Fry Box.md",
     "Items/Boxes/Nuggie Box.md",
-    "Food/Food.md",
-    "Food/Nuggies/Nuggies.md",
-    "Food/Fries/Fries.md",
-    "Changelog/Version 0.2.md",
+    "Items/Food/Food.md",
+    "Items/Food/Nuggies/Nuggies.md",
+    "Items/Food/Fries/Fries.md",
     "Changelog/Version 0.1.0.md",
     "Items/Boxes",
-    "Table of Contents.md",
-    "Tools/Tools.md",
-    "Items/Knife Hilt.md",
+    "Items/Tools/Knives/Knife Hilt.md",
     "Items/Toys/Toys.md",
-    "Tools",
-    "Food/Desserts/Apple Pie.md",
-    "Food/Desserts/Desserts.md",
+    "Items/Tools",
+    "Items/Food/Desserts/Apple Pie.md",
+    "Items/Food/Desserts/Desserts.md",
     "Items/Toys/MD Toy.md",
-    "Food/Desserts",
+    "Items/Food/Desserts",
     "Changelog/Changelog.md",
     "Items/Toys",
-    "Food/Fries/Cooked French Fries.md",
-    "Food/Nuggies/Cooked Nuggies.md",
-    "Food/Nuggies/Cooked Dino Nuggies.md",
-    "Food/Nuggies/6 Piece Nuggie.md",
-    "Food/Nuggies/6 Piece Dino Nuggie.md",
-    "Food/Fries/Large Fry.md",
-    "Food/Fries/Untitled.md",
-    "Food/Fries",
+    "Items/Food/Fries/Cooked French Fries.md",
+    "Items/Food/Nuggies/Cooked Nuggies.md",
+    "Items/Food/Fries",
     "Changelog",
-    "Tools/Knives",
-    "Food/Nuggies",
-    "Tools/Spatulas",
-    "Food"
+    "Items/Tools/Knives",
+    "Items/Food/Nuggies"
   ]
 }

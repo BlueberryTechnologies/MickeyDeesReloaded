@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
+  "group": "food",
   "ingredients": [
     "mickeydeesreloaded:cooked_nuggie",
     "mickeydeesreloaded:cooked_nuggie",

@@ -79,8 +79,8 @@
 	- [ ] Toys
 		- [x] Da Toy
 		- [ ] Little Jon
-- [ ] Add ores
-	- [ ] BBQ Ore
+- [x] Add ores
+	- [x] BBQ Ore
 - [ ] Import Old Textures
 - [ ] Fix knife texture
 - [ ] Add saturation for foods

@@ -26,6 +26,7 @@ public class MDR_Items {
             itemGroup.add(MDR_Items.FRY_BOX);
             itemGroup.add(MDR_Items.KNIFE_HILT);
             itemGroup.add(MDR_Items.MD_TOY);
+            itemGroup.add(MDR_Items.RAW_BBQ);
         });
     }
 
@@ -45,8 +46,8 @@ public class MDR_Items {
 
         // Register the item.
         Registry.register(Registries.ITEM, itemKey, item);
-
         return item;
+
     }
 
 
@@ -72,6 +73,7 @@ public class MDR_Items {
             .maxCount(1));
 
 
-
+    // MISC. Items
+    public static final Item RAW_BBQ = register("raw_bbq", Item::new, new Item.Settings());
 
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_coarse_dirt": {
+    "has_apple": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:coarse_dirt"
+            "items": "minecraft:apple"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mickeydeesreloaded:raw_nuggie"
+        "recipe": "mickeydeesreloaded:apple_pie"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_coarse_dirt"
+      "has_apple"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mickeydeesreloaded:raw_nuggie"
+      "mickeydeesreloaded:apple_pie"
     ]
   }
 }

@@ -56,35 +56,52 @@ public class MDR_Foods {
 
     public static final Item RAW_NUGGIE = register("raw_nuggie", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(1)
+                    // Nutrition and Saturation are based on the regular Java Edition food items that are most similar
+                    // See https://minecraft.wiki/w/Hunger for more details
+                    .nutrition(1) // The normal chicken value is 2 which is 1 full hunger heart. This set at 1 provides 1/2 hunger heart
+                    .saturationModifier(0.5f) // Chicken is normally 1.2 saturation
+
                     .build()
             )
-    );
+    ); // For some reason my IDE is complaining about this semicolon. Great job intellij
 
     public static final Item COOKED_NUGGIE = register("cooked_nuggie", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(4)
+                    // Nutrition and Saturation are based on the regular Java Edition food items that are most similar
+                    // See https://minecraft.wiki/w/Hunger for more details
+                    .nutrition(4) // This provides 2 full hunger hearts
+                    .saturationModifier(5.2f) // Cooked Chicken is 7.2
+
                     .build()
             )
     );
 
     public static final Item RAW_DINO_NUGGIE = register("raw_dino_nuggie", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(1)
+                    // Nutrition and Saturation are based on the regular Java Edition food items that are most similar
+                    // See https://minecraft.wiki/w/Hunger for more details
+                    .nutrition(1) // The normal chicken value is 2 which is 1 full hunger heart. This set at 1 provides 1/2 hunger heart
+                    .saturationModifier(0.5f) // Chicken is normally 1.2 saturation
+
                     .build()
             )
     );
 
     public static final Item COOKED_DINO_NUGGIE = register("cooked_dino_nuggie", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
-                    .nutrition(4)
+                    // Nutrition and Saturation are based on the regular Java Edition food items that are most similar
+                    // See https://minecraft.wiki/w/Hunger for more details
+                    .nutrition(4) // This provides 2 full hunger hearts
+                    .saturationModifier(5.2f) // Cooked Chicken is 7.2
                     .build()
             )
     );
 
+
     public static final Item RAW_FRIES = register("raw_fries", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(1)
+                    .saturationModifier(0.6f)
                     .build()
             )
     );
@@ -92,6 +109,7 @@ public class MDR_Foods {
     public static final Item COOKED_FRIES = register("cooked_fries", Item::new,
             new Item.Settings().food(new FoodComponent.Builder()
                     .nutrition(4)
+                    .saturationModifier(5.0f)
                     .build()
             )
     );
@@ -99,6 +117,7 @@ public class MDR_Foods {
     public static final Item LARGE_FRY = register("large_fry", Item::new,
             new Item.Settings().maxCount(1).food(new FoodComponent.Builder()
                     .nutrition(12)
+                    .saturationModifier(8.0f)
                     .build()
             )
     );
@@ -106,6 +125,7 @@ public class MDR_Foods {
     public static final Item SIX_PIECE_NUGGIE = register("six_piece_nuggie", Item::new,
             new Item.Settings().maxCount(1).food(new FoodComponent.Builder()
                     .nutrition(16)
+                    .saturationModifier(10.0f)
                     .build()
             )
     );
@@ -113,6 +133,7 @@ public class MDR_Foods {
     public static final Item SIX_PIECE_DINO_NUGGIE = register("six_piece_dino_nuggie", Item::new,
             new Item.Settings().maxCount(1).food(new FoodComponent.Builder()
                     .nutrition(16)
+                    .saturationModifier(10.0f)
                     .build()
             )
     );
@@ -120,6 +141,7 @@ public class MDR_Foods {
     public static final Item APPLE_PIE = register("apple_pie", Item::new,
             new Item.Settings().maxCount(1).food(new FoodComponent.Builder()
                     .nutrition(10)
+                    .saturationModifier(6.3f)
                     .build()
             )
     );
