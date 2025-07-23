@@ -21,14 +21,13 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+import blueberrytech.mickeydeesreloaded.*;
 
 public class Mincer extends AbstractFurnaceBlock {
-    public static final MapCodec<net.minecraft.block.FurnaceBlock> CODEC = createCodec(net.minecraft.block.FurnaceBlock::new);
-
-    public MapCodec<net.minecraft.block.FurnaceBlock> getCodec() {
-        return CODEC;
+    @Override
+    protected MapCodec<? extends AbstractFurnaceBlock> getCodec() {
+        return createCodec(Mincer::new);
     }
-
     public Mincer(AbstractBlock.Settings settings) {
         super(settings);
     }
@@ -56,7 +55,7 @@ public class Mincer extends AbstractFurnaceBlock {
             double e = (double)pos.getY();
             double f = (double)pos.getZ() + (double)0.5F;
             if (random.nextDouble() < 0.1) {
-                world.playSoundClient(d, e, f, SoundEvents.BLOCK_FURNACE_FIRE_CRACKLE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
+                world.playSoundClient(d, e, f, SoundEvents.BLOCK_ANVIL_PLACE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
             }
 
             Direction direction = (Direction)state.get(FACING);
@@ -66,8 +65,8 @@ public class Mincer extends AbstractFurnaceBlock {
             double i = axis == Direction.Axis.X ? (double)direction.getOffsetX() * 0.52 : h;
             double j = random.nextDouble() * (double)6.0F / (double)16.0F;
             double k = axis == Direction.Axis.Z ? (double)direction.getOffsetZ() * 0.52 : h;
-            world.addParticleClient(ParticleTypes.SMOKE, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
-            world.addParticleClient(ParticleTypes.FLAME, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
+            world.addParticleClient(ParticleTypes.ELECTRIC_SPARK, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
+            world.addParticleClient(ParticleTypes.ANGRY_VILLAGER, d + i, e + j, f + k, (double)0.0F, (double)0.0F, (double)0.0F);
         }
     }
 }

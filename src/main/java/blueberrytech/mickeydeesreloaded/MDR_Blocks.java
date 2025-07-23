@@ -15,6 +15,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.recipe.RecipePropertySet;
 import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.registry.Registries;
@@ -86,12 +87,11 @@ public class MDR_Blocks {
             true); // the 2,5 is the range of exp
 
 
-    public static final Block MINCER = register("mincer", settings -> new FurnaceBlock(settings){}, AbstractBlock.Settings.create(), true);
-
+    public static final Block MINCER = register("mincer", settings -> new Mincer(settings){}, AbstractBlock.Settings.create(), true);
 
 
     public static final BlockEntityType<MincerBlockEntity> MINCER_BLOCK_ENTITY =
-            register("counter", MincerBlockEntity::new, MDR_Blocks.MINCER);
+            register("mincer", MincerBlockEntity::new, MDR_Blocks.MINCER);
 
     private static <T extends BlockEntity> BlockEntityType<T> register(
             String name,
