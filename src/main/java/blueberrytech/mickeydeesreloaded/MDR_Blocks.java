@@ -6,6 +6,9 @@ import blueberrytech.mickeydeesreloaded.MickeyDeesReloaded;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,10 +17,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+
+import static blueberrytech.mickeydeesreloaded.MickeyDeesReloaded.MOD_ID;
 
 
 public class MDR_Blocks {
@@ -43,14 +49,14 @@ public class MDR_Blocks {
     }
 
     private static RegistryKey<Block> keyOfBlock(String name) {
-        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MickeyDeesReloaded.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, name));
     }
 
     private static RegistryKey<Item> keyOfItem(String name) {
-        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MickeyDeesReloaded.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, name));
     }
 
-    public static final RegistryKey<ItemGroup> MICKEY_DEES_GROUP_BLOCKS_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MickeyDeesReloaded.MOD_ID, "item_group_blocks"));
+    public static final RegistryKey<ItemGroup> MICKEY_DEES_GROUP_BLOCKS_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MOD_ID, "item_group_blocks"));
     public static final ItemGroup MICKEY_DEES_GROUP_BLOCKS = FabricItemGroup.builder()
             .icon(() -> new ItemStack(MDR_Blocks.BBQ_ORE))
             .displayName(Text.translatable("itemGroup.mickeydeesreloaded_blocks"))
@@ -73,8 +79,6 @@ public class MDR_Blocks {
                     .requiresTool(),
             true); // the 2,5 is the range of exp
 
-    public static final Block MINCER = Registry.register(MDR_Blocks.MINCER, new Identifier(MickeyDeesReloaded.MOD_ID, "test_furnace"), new Mincer(FabricBlockSettings.of(Material.METAL)));
 
-    // :::1
+
 }
-// :::1

@@ -2,6 +2,7 @@ package blueberrytech.mickeydeesreloaded;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +30,6 @@ public class MickeyDeesReloaded implements ModInitializer {
 		MDR_Items.initialize();
 		MDR_Blocks.initialize();
 		Generatable_Ore.initialize();
-		//CustomTooltips.initialize();
 
 		LOGGER.info("Hello Fabric world!");
 	}

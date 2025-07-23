@@ -67,6 +67,17 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.APPLE), conditionsFromItem(Items.APPLE))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.FOOD, MDR_Foods.BURGER)
+                        .pattern("FFF")
+                        .pattern("FSF")
+                        .pattern("FFF")
+                        .input('F', Items.WHEAT)
+                        .input('S', MDR_Foods.COOKED_PATTY)
+                        .group("food")
+                        // Need to figure out how the criterion works for the advancements for the recipes in the book.
+                        .criterion(hasItem(MDR_Foods.COOKED_PATTY), conditionsFromItem(MDR_Foods.COOKED_PATTY))
+                        .offerTo(exporter);
+
                 // Shapeless Recipes
 
                 createShapeless(RecipeCategory.FOOD, MDR_Foods.SIX_PIECE_NUGGIE) // You can also specify an int to produce more than one
@@ -99,6 +110,20 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
                         6
                 );
 
+                offerStonecuttingRecipe(
+                        RecipeCategory.FOOD,
+                        MDR_Foods.RAW_FRIES,
+                        Items.POTATO,
+                        6
+                );
+
+                offerStonecuttingRecipe(
+                        RecipeCategory.FOOD,
+                        MDR_Foods.RAW_PATTY,
+                        Items.BEEF,
+                        6
+                );
+
                 offerSmelting(
                         List.of(MDR_Foods.RAW_NUGGIE), // Inputs
                         RecipeCategory.FOOD, // Category
@@ -124,6 +149,15 @@ public class MickeyDeesReloadedRecipeProvider extends FabricRecipeProvider {
                         0.1f, // Experience
                         50, // Cooking time
                         "fries_to_fries" // group
+                );
+
+                offerSmelting(
+                        List.of(MDR_Foods.RAW_PATTY), // Inputs
+                        RecipeCategory.FOOD, // Category
+                        MDR_Foods.COOKED_PATTY, // Output
+                        0.1f, // Experience
+                        50, // Cooking time
+                        "patty_to_patty" // group
                 );
             }
         };

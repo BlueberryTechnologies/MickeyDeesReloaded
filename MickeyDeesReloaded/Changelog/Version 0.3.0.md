@@ -9,3 +9,4 @@ NEW CRAFTING RECIPES:
 MISC:
 	[+] Spend 2 hours trying to figure out how to add XP to a block
 	[+] Sam did some stuff too idk
+	[+] Natural Ore generation also

@@ -1,0 +1,1 @@
+From raw patties in a furnace

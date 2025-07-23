@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 50,
+  "experience": 0.1,
+  "group": "patty_to_patty",
+  "ingredient": "mickeydeesreloaded:raw_patty",
+  "result": {
+    "id": "mickeydeesreloaded:cooked_patty"
+  }
+}

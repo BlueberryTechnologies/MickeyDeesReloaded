@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "food",
+  "key": {
+    "F": "minecraft:wheat",
+    "S": "mickeydeesreloaded:cooked_patty"
+  },
+  "pattern": [
+    "FFF",
+    "FSF",
+    "FFF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mickeydeesreloaded:burger"
+  }
+}

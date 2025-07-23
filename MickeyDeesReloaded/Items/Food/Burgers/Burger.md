@@ -1,0 +1,1 @@
+8 wheat surrounding 1 Cooked Patty

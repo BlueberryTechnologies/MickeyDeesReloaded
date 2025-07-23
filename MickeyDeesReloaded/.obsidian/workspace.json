@@ -6,6 +6,7 @@
       {
         "id": "54b24ce6abbbbd25",
         "type": "tabs",
+        "dimension": 49.08207343412527,
         "children": [
           {
             "id": "f54421f55c9ec44d",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Items/Boxes/Meal Box.md",
+                "file": "Items/Boxes/Boxes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meal Box"
+              "title": "Boxes"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "74207ffd06564d0b",
         "type": "tabs",
+        "dimension": 50.91792656587473,
         "children": [
           {
             "id": "99b840062099a209",
@@ -184,10 +186,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f54421f55c9ec44d",
+  "active": "71a983636869d780",
   "lastOpenFiles": [
-    "Changelog/Version 0.3.md",
+    "Items/Boxes/Boxes.md",
     "Items/Boxes/Meal Box.md",
+    "Changelog/Changelog.md",
+    "Items/Food/Burgers/Burgers.md",
+    "Items/Food/Food.md",
+    "Items/Food/Patties/Patties.md",
+    "Items/Food/Burgers/Burger.md",
+    "Changelog/Version 0.4.0.md",
+    "Items/Food/Burgers",
+    "Items/Food/Patties/Cooked Patty.md",
+    "Items/Food/Patties/Raw Patty.md",
+    "Items/Food/Patties",
+    "Changelog/Version 0.2.1.md",
+    "Changelog/Version 0.3.0.md",
     "To-Do.md",
     "Blocks/Ores/BBQ Ore.md",
     "Items/Tools/Knives/Knives.md",
@@ -198,29 +212,17 @@
     "Blocks/Blocks.md",
     "Blocks/Ores",
     "Blocks",
-    "Changelog/Version 0.2.1.md",
     "Changelog/Version 0.2.md",
-    "Items/Boxes/Boxes.md",
     "Items/Boxes/Fry Box.md",
     "Items/Boxes/Nuggie Box.md",
-    "Items/Food/Food.md",
     "Items/Food/Nuggies/Nuggies.md",
     "Items/Food/Fries/Fries.md",
     "Changelog/Version 0.1.0.md",
     "Items/Boxes",
-    "Items/Tools/Knives/Knife Hilt.md",
-    "Items/Toys/Toys.md",
     "Items/Tools",
-    "Items/Food/Desserts/Apple Pie.md",
-    "Items/Food/Desserts/Desserts.md",
-    "Items/Toys/MD Toy.md",
     "Items/Food/Desserts",
-    "Changelog/Changelog.md",
     "Items/Toys",
-    "Items/Food/Fries/Cooked French Fries.md",
     "Items/Food/Fries",
-    "Changelog",
-    "Items/Tools/Knives",
-    "Items/Food/Nuggies"
+    "Changelog"
   ]
 }
